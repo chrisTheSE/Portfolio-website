@@ -14,7 +14,7 @@
 /*Small tablets to big tablet: from 768px to 1023px*/
 @media only screen and (max-width: 1023px) {
     body {
-        font-size: 14px;
+        font-size: 16px;
     }
 
     .btn {
@@ -38,7 +38,7 @@
 /* Small phones to small tablets: from 481px to 767px*/
 @media only screen and (max-width: 767px) {
     body {
-        font-size: 10px;
+        font-size: 16px;
     }
 
     .btn {
@@ -54,6 +54,11 @@
     .row,
     .hero-text-box {
         padding: 0 4%;
+    }
+
+    .hero-text-box {
+        left: 50%;
+        padding-left: 150px;
     }
 
     .col {
@@ -127,11 +132,11 @@
     }
 
     body {
-        font-size: 10px;
+        font-size: 16px;
     }
 
     .hero-text-box {
         left: 50%;
-        padding-left: 100px;
+        padding-left: 75px;
     }
 }
