@@ -99,7 +99,44 @@
           <h2> Portfolio</h2>
         </div>
         
-         <!-- Project 1-->
+        <!-- Project 1-->
+        <div class="card mb-3" style="width: 100%;">
+          <div class="row g-0">
+            <div class="col span-1-of-1 box">
+              <div class="card-body">
+                <h4 class="card-title">Reliable Communication Microservice using Amazon SES and SNS</h4>
+                <p class="card-text">While working at Verto Health as a Junior Full-Stack Developer, I was presented with a problem where our email and sms message delivery system was not 100% reliable due to vendor outages and other issues. Therefore, 
+                  my task was to extend our communication microservice to be able to send messages interchangeably using multiple email and sms delivery providers/vendors. In addition, it also required the ability to track the message delivery status and 
+                  react accordingly upon delivery failures. Thus, I set out on a two week long journey to research and set up Amazon Simple Notification Service (SNS) and Amazon Simple Email Service (SES) as new message delivery providers for our microservice. After 
+                  having read through a seemingly unending series of AWS documentation pages about SNS and SES and some trial and error, I was able to design two workflows. One to send sms messages using Amazon SNS and one to send emails using Amazon SES. The two 
+                  sequence diagrams attached below stand as artifacts of those two workflows and two weeks worth of research and development. At the end of those two weeks, I presented the new message delivery system to the senior developers and upper management and 
+                  it was well-received and was approved to proceed to the next step of preparing it to be deployed to production. The new system is more reliable and although Amazon SES and SNS were harder to set up than our previous providers, they cost 50% less per 
+                  sms or email message and are more scalable. While working on this project I had a great opportunity to take an ambiguous problem and flesh out a solution by comprehensively reading through AWS API documentation and then designing, developing, 
+                  testing and finally presenting the solution to help improve reliability and reduce costs.
+
+                  This story has a lot more to explain about it, but it is too much to cover in a short paragraph. If you would like to hear more about it, feel free to contact me or bring me in for an interview :).
+                  
+                  </p>
+                <div>
+                  GitHub<br>
+                    Not available because github repo is private and code is proprietary.
+                </div>
+                <p class="card-text"><small class="text-muted">AWS, Python, Flask, Amazon SNS, Amazon SES, Amazon Cloudwatch, Amazon Lambda</small></p>
+              </div>
+            </div>
+          </div>
+          <div class="row g-0">
+            <div class="col span-1-of-1 box">
+              <p class="card-text"><strong>Send email workflow using Amazon SES</strong></p>
+              <img src="resources/img/amazon-ses-sequence-diagram.svg" alt="amazon ses sequence diagram">
+              <p class="card-text"><strong>Send sms workflow using Amazon SNS</strong></p>
+              <img src="resources/img/amazon-sns-sequence-diagram.svg" alt="amazon sns sequence diagram">
+              <p> Simplified sequence diagrams for the Person-To-Person (Clinician --> Patient) sms and email sending workflows using AWS services. Diagram generated on 2022-08-07</p>
+            </div>
+          </div>
+        </div>
+
+         <!-- Project 2-->
          <div class="card mb-3" style="width: 100%;">
           <div class="row g-0">
             <div class="col span-1-of-1 box">
@@ -132,7 +169,7 @@
         </div>
 
 
-        <!-- Project 2-->
+        <!-- Project 3-->
         <div class="card mb-3" style="width: 100%;">
           <div class="row g-0">
             <div class="col span-1-of-2 box">
@@ -157,7 +194,7 @@
           </div>
         </div>
 
-        <!-- Project 3-->
+        <!-- Project 4-->
         <div class="card mb-3" style="width: 100%;">
           <div class="row g-0">
             <div class="col span-1-of-2 box">
